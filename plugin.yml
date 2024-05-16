@@ -1,0 +1,15 @@
+name: PlayerOS
+version: 1.0.0
+description: Controll Device Players
+author: akari_my
+api: 5.0.0
+main: Akari\PlayerOS\PlayerOS
+
+commands:
+  os:
+    description: Control Device Players
+    permission: os.use
+
+permissions:
+  os.use:
+    default: true
